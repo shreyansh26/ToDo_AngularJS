@@ -5,8 +5,6 @@
 
 body {
 	text-align: center;
-	font-size: 150%;
-	background-color: yellowgreen;
 }
 
 #item{
@@ -15,6 +13,8 @@ body {
 }
 
 h2{
-	 font-family: 'Lobster Two', cursive;
-    font-size: 180%;
+	
+    font-family: 'Lobster Two', cursive;
+    font-size: 150%;
+	
 }

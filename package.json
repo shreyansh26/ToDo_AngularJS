@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDo List App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "7.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyansh26/ToDo_AngularJS.git"
+  },
+  "author": "shreyansh26",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyansh26/ToDo_AngularJS/issues"
+  },
+  "homepage": "https://github.com/shreyansh26/ToDo_AngularJS#readme",
+  "dependencies": {
+    "express": "4.15.3",
+    "morgan": "1.8.2",
+    "path": "0.12.7"
+  }
+}
