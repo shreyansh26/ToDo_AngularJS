@@ -4,8 +4,12 @@ angular.module('todoApp', [])
     todoList.todos = [];
  
     todoList.addTodo = function() {
+      if(todoList.todoText.length === 0)
+	alert("Empty todo");
+      else{
       todoList.todos.push({text:todoList.todoText, done:false});
       todoList.todoText = '';
+	}
     };
  
     todoList.remaining = function() {

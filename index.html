@@ -3,6 +3,8 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="todo.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
     <link rel="stylesheet" href="todo.css">
   </head>
   <body>
@@ -13,7 +15,7 @@
       <ul class="unstyled">
         <li ng-repeat="todo in todoList.todos">
           <input type="checkbox" ng-model="todo.done">
-          <span class="done-{{todo.done}}">{{todo.text}}</span>
+          <span id="item" class="done-{{todo.done}}">{{todo.text}}</span>
         </li>
       </ul>
       <form ng-submit="todoList.addTodo()">
